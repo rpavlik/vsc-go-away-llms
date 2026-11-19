@@ -1,5 +1,13 @@
 {
-    // go away copilot and other ai slop machines
+    // go away LLMs and similar systems
+    // https://github.com/rpavlik/vsc-go-away-llms
+    //
+    // Copyright 2025-2026, Rylie Pavlik and contributors
+    //
+    // SPDX-License-Identifier: MIT
+    //
+    // Reminder: No guarantee! Might have missed some... or new ones added.
+    // Please keep sorted by top level key when editing, thanks
     "accessibility.verboseChatProgressUpdates": false,
     "accessibility.verbosity.inlineChat": false,
     "accessibility.verbosity.panelChat": false,
@@ -145,5 +153,5 @@
     "geminicodeassist.inlineSuggestions.enableAuto": false,
     "geminicodeassist.localCodebaseAwareness": false,
     "geminicodeassist.chat.automaticScrolling": false
-    // end of slop machine settings
+    // end of go away LLMs
 }
