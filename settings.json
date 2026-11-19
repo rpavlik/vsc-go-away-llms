@@ -144,6 +144,6 @@
     "geminicodeassist.enableTelemetry": false,
     "geminicodeassist.inlineSuggestions.enableAuto": false,
     "geminicodeassist.localCodebaseAwareness": false,
-    "geminicodeassist.chat.automaticScrolling": false,
+    "geminicodeassist.chat.automaticScrolling": false
     // end of slop machine settings
 }
