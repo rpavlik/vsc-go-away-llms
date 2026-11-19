@@ -19,8 +19,11 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     runHook postUnpack
   '';
 
+  # 1. Remove any comments: lines starting with optional whitespace and //
+  # 2. Remove the final trailing comma in an object { "key": "val", }
   postPatch = ''
     sed -i '/^\s*\/\//d' "$out/settings.json"
+    sed -z -i 's/,\(\s*}\s*\)$/\1/' "$out/settings.json"
   '';
 
   meta = with lib; {
