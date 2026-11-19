@@ -10,6 +10,7 @@
     "chat.agent.enabled": false,
     "chat.agent.maxRequests": 0,
     "chat.agent.networkFilter": true,
+    "chat.agent.sandbox.enabled": "on",
     "chat.agent.sandbox.allowAutoApprove": false,
     "chat.agent.sandbox.allowUnsandboxedCommands": false,
     "chat.agent.thinking.generateTitles": false,
